@@ -3,7 +3,7 @@ apply plugin: 'java'
 archivesBaseName = 'ig-app'
 
 dependencies {
-   testCompile 'junit:junit:4.4'
+   testImplementation 'junit:junit:4.13'
 }
 
 repositories {
